@@ -203,13 +203,6 @@ header li:last-child {
     color: #fff;
 }
 
-@media (max-width: 850px) {
-    .caracteristicas .grid {
-        flex-direction: column;
-    }
-}
-
-
 /* NEWSLETTER */
 
 .newsletter {
@@ -301,6 +294,12 @@ footer p {
     text-align: center;
 }
 
+@media (max-width: 850px) {
+    .caracteristicas .grid {
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 700px) {
     header {
         flex-direction: column;
@@ -326,6 +325,11 @@ footer p {
         flex-basis: 100%;
         margin-bottom: 15px;
     }
+
+    footer a{
+        font-size: 1.1rem;
+    }
 }
+
 
 
